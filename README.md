@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# PR Sentinel
 
-# Run and deploy your AI Studio app
+AI-assisted frontend PR reviewer for React and TypeScript code.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/e1495ea7-ee8a-4a8b-b2c1-a6389ea17ced
+* React and TSX code review
+* Infinite render loop detection
+* Stale closure analysis
+* Accessibility-aware feedback
+* Maintainability suggestions
+* Structured PR-style review output
+
+## Tech Stack
+
+* React
+* TypeScript
+* Vite
+* Gemini / Gemma API
+* Render
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+```
 
+Create a local environment file and add your API key before running the application.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## About
+
+PR Sentinel analyzes frontend code snippets and generates engineering-focused review feedback for common React and frontend anti-patterns.
+
+The project includes built-in diagnostic scenarios to simulate frontend pull request review workflows.
+
+## Future Improvements
+
+* GitHub PR integration
+* File diff support
+* Backend proxy for API security
+* Custom review rules
+* CI/CD integration
