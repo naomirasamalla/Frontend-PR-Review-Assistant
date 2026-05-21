@@ -1,0 +1,6 @@
+{
+  "name": "Frontend PR Review Assistant",
+  "description": "An AI-powered PR review tool that provides detailed feedback on frontend code snippets, checking code quality, UI/UX, accessibility, and potential improvements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
