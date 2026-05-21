@@ -142,7 +142,7 @@ Generate a comprehensive review structured precisely under the required schema. 
         }
       });
 
-      const resultText = gResponse.text();
+      const resultText = gResponse.text;
 
 if (!resultText) {
   throw new Error("No review text returned from Gemini API.");
