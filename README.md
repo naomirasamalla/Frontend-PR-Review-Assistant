@@ -87,7 +87,7 @@ work correctly for everyone, including users of screen readers, keyboard navigat
 
 **Writing on accessible frontend engineering:**
 - [AI-Assisted Frontend Reviews Using Gemma 4](https://dev.to/naomir/ai-assisted-frontend-reviews-using-gemma-4-567c) — DEV Community
-- [Accessibility Bugs That Were Actually Architecture Problems](#) — *(coming soon to DEV)*
+- [Accessibility Bugs That Were Actually Architecture Problems](https://dev.to/naomir/accessibility-bugs-that-were-actually-architecture-problems-1fmh) -DEV Community
 
 **Tools & standards:** WCAG 2.2 AA · NVDA · VoiceOver · Axe DevTools · React · TypeScript
 
